@@ -1,24 +1,29 @@
+auxpi
+auxpi.tar.gz
+*.json
+*.conf
+*.lock
+*.tmp
+.idea
+.idea/*
+public/upload/*
+*.log
+resource/node_modules
+build/
+pem/
+
 # Binaries for programs and plugins
 *.exe
+*.exe~
 *.dll
 *.so
 *.dylib
+*.idea
+*.log
+
 
 # Test binary, build with `go test -c`
 *.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
-auxpi
-auxpi.tar.gz
-.json
-.conf
-.lock
-.tmp
-.idea
-.idea/*
-.vscode
-.vscode/*
-siteConfig.json
-.lock
-.idea
